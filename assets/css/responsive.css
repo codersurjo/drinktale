@@ -212,6 +212,10 @@
         background: none !important;
         border: 1px solid #707070;
     }
+
+    .about_img img {
+        min-height: auto;
+    }
 }
 
 
@@ -283,10 +287,24 @@
     .owl-theme .owl-nav.disabled+.owl-dots {
         margin-top: 24px;
     }
+
     .shop_position {
         padding: 18px;
     }
 
+    .footer_area_design {
+        padding: 24px 0;
+        padding-bottom: 60px;
+    }
+
+    .fil_img {
+        width: 246px;
+        height: 306px;
+        position: absolute;
+        right: -6%;
+        bottom: -12%;
+        z-index: -1;
+    }
 }
 
 @media all and (max-width:991px) {
@@ -345,8 +363,39 @@
         padding: 50px 0;
         background-position: 100% 68% !important;
     }
+
     .cat_item {
         margin-bottom: 30px;
+    }
+
+    .assort2 {
+        margin-top: 37px;
+    }
+
+    .single_ins {
+        margin-bottom: 27px;
+    }
+
+    .footer_con ul {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .footer_con ul li {
+        padding: 10px 0;
+    }
+
+    .footer_con.footer_con2 ul {
+        display: flex;
+    }
+
+    .fil_img {
+        width: 388px;
+        height: 388px;
+        position: absolute;
+        right: -13%;
+        bottom: 35%;
+        z-index: -1;
     }
 }
 
@@ -391,14 +440,17 @@
         max-width: 68px;
         max-height: 57px;
     }
+
     .shop_categorey_area {
         padding: 54px 0;
         padding-bottom: 20px;
     }
+
     .shop_position h3 {
         color: #FFF;
         font-size: 18px;
     }
+
     .shop_position span {
         border: 1px solid #FFF;
         width: 52px;
@@ -414,7 +466,27 @@
         -moz-border-radius: 6px;
         -ms-border-radius: 6px;
         -o-border-radius: 6px;
-}
+    }
+
+    .flow_us_area.section_padding {
+        padding-bottom: 0;
+    }
+    .footer_con h2 {
+        font-size: 49px;
+    }
+    .subs_area h3 {
+        font-size: 18px;
+    }
+    .main_menu {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .icon_bar{
+        display: block;
+    }
 }
 
 
@@ -461,10 +533,33 @@
     .single_why_drink p br {
         display: none;
     }
+
     .single_why_drink img {
         max-height: 57px;
         height: 42px;
     }
+
+    .assort_con {
+        display: none;
+    }
+
+    .why_they_about_area.section_padding {
+        padding-top: 0;
+    }
+
+    .assort_area_design.section_padding {
+        padding-top: 0;
+    }
+    .fil_img {
+        width: 366px;
+        height: 366px;
+        position: absolute;
+        right: -32%;
+        bottom: 35%;
+        z-index: -1;
+        transform: rotate(-21deg);
+    }
+
 }
 
 @media all and (max-width:450px) {
@@ -540,21 +635,46 @@
         font-size: 15px;
         margin-top: 18px;
     }
+
     .single_why_drink img {
         max-height: 57px;
         height: 42px;
     }
+
     .shop_position h3 {
         color: #FFF;
         font-size: 15px;
     }
+
     .shop_position {
         padding: 8px;
     }
+
     .shop_position span {
         width: 34px;
         font-size: 16px;
         height: 18px;
         line-height: 13px;
+    }
+
+    .single_about {
+        padding: 17px;
+        margin: 14px;
+        border-radius: 22px;
+    }
+    .fil_img {
+        width: 317px;
+        height: 328px;
+        position: absolute;
+        right: -32%;
+        bottom: 35%;
+        z-index: -1;
+        transform: rotate(-21deg);
+    }
+    .footer_con p {
+        font-size: 14px;
+    }
+    .footer_con ul li {
+        padding: 5px 0;
     }
 }

@@ -1,4 +1,11 @@
 jQuery(document).ready(function () {
+
+    //Mobile menu
+    jQuery('.toggle_div').click(function(){
+        jQuery('.mobile_menu_design').toggleClass('active_mobile_menu')
+    });
+
+    //Slider
     jQuery(".product_slider_group").owlCarousel({
         autoplay: false,
         loop: true,
@@ -56,16 +63,17 @@ jQuery(document).ready(function () {
         responsiveClass: true,
         autoplayTimeout: 3000,
         smartSpeed: 800,
-        items:2,
         responsive: {
             0: {
               items: 1,
               center:false,
+              margin:0,
             },
     
             450: {
               items: 2,
               center:false,
+              margin:5,
             },
     
             992: {
