@@ -1,0 +1,560 @@
+@media all and (max-width:1599px) {
+    .main_menu ul li a {
+        font-size: 16px;
+        padding: 0 28px;
+    }
+
+    .header_bottom_con ul li span {
+        font-size: 14px;
+    }
+
+    .header_bottom_con ul li {
+        padding: 0 21px;
+    }
+
+    .bannar_con h1 {
+        font-size: 92px;
+    }
+
+    .bannar_con p {
+        font-size: 34px;
+    }
+
+    .bannar_con a {
+        height: 77px;
+        width: 276px;
+        font-size: 27px;
+        margin-top: 26px;
+    }
+
+    .banner_area_design {
+        min-height: 457px;
+
+    }
+
+    .p_image {
+        min-height: auto;
+        overflow: hidden;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    .product_con p {
+        font-size: 20px;
+        color: #333333;
+        padding: 19px 0;
+        line-height: normal;
+        padding-bottom: 9px;
+    }
+
+    .product_con ul li {
+        font-size: 14px;
+    }
+
+    .product_con a {
+        height: 43px;
+        width: 100%;
+        font-size: 16px;
+        max-width: 161px;
+    }
+
+    .next_prev ul li {
+        width: 60px;
+        height: 60px;
+        font-size: 33px;
+    }
+
+    .section_title h2 {
+        font-size: 32px;
+    }
+
+    .single_why_drink p {
+        font-size: 19px;
+        margin-top: 19px;
+    }
+
+    .single_why_drink img {
+        max-width: 86px;
+        max-height: 74px;
+    }
+
+    .shop_position h3 {
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .shop_cat_single {
+        min-height: auto;
+    }
+
+    .shop_position span {
+        border: 1px solid #FFF;
+        width: 61px;
+        border-radius: 11px;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        font-size: 27px;
+        height: 27px;
+        line-height: 20px;
+        margin-left: 16px;
+    }
+
+    .shop_categorey_area {
+        padding: 82px 0;
+    }
+
+    .assort2 h1 {
+        font-size: 32px;
+    }
+
+    .assort2 a {
+        height: 46px;
+        width: 200px;
+        display: inline-flex;
+        background: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        color: #EF245E;
+        font-weight: 500;
+        font-size: 17px;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+    }
+
+    .assort2 {
+        background: #EF245E;
+        padding: 49px;
+        border-radius: 9px;
+    }
+
+    .footer_con h2 {
+        font-size: 55px;
+    }
+
+    .footer_con p {
+        font-size: 15px;
+        color: #202020;
+        max-width: 438px;
+        width: 100%;
+    }
+
+    .footer_con ul li a {
+        font-size: 14px;
+    }
+
+    .subs_area {
+        max-width: 354px;
+        width: 100%;
+    }
+
+    .subs_area h3 {
+        font-size: 22px;
+    }
+
+    .footer_con2 ul li a {
+        font-size: 21px;
+        margin-right: 30px;
+    }
+
+    .fil_img {
+        width: 425px;
+        height: 425px;
+        position: absolute;
+        right: -6%;
+        bottom: -12%;
+        z-index: -1;
+    }
+
+    .subs_form input {
+        font-size: 15px;
+        padding: 6px;
+    }
+
+    .subs_form input[type="submit"] {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        background: #E51853;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        width: 104px;
+        height: 39px;
+        position: absolute;
+        top: 4px;
+        right: 7px;
+        text-transform: capitalize;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .footer_area_design {
+        padding: 71px 0;
+    }
+
+    .section_padding {
+        padding: 56px 0;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 15px !important;
+        height: 15px !important;
+        background: none !important;
+        border: 1px solid #707070;
+    }
+}
+
+
+@media all and (max-width:1199px) {
+    .header_bottom_con .img_div {
+        width: 110px;
+        height: 74px;
+        display: block;
+    }
+
+    .header_bottom_con .img_div img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .header_bottom_con ul li {
+        padding: 0 14px;
+    }
+
+    .header_bottom_con {
+        padding: 32px 0;
+    }
+
+    .next_prev {
+        display: none;
+    }
+
+    .banner_area_design {
+        min-height: 574px;
+        background-position: 79% 50% !important;
+    }
+
+    .bannar_con h1 {
+        font-size: 82px;
+    }
+
+    .bannar_con p {
+        font-size: 27px;
+    }
+
+    .bannar_con a {
+        height: 65px;
+        width: 219px;
+        font-size: 23px;
+        margin-top: 27px;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #F22762 !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        border: 1px solid #fa306a;
+    }
+
+    .section_title {
+        margin-bottom: 46px;
+    }
+
+    .section_title h2 {
+        font-size: 29px;
+    }
+
+    .product_con p {
+        font-size: 18px;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 24px;
+    }
+    .shop_position {
+        padding: 18px;
+    }
+
+}
+
+@media all and (max-width:991px) {
+    .cart_profile_menu ul li a img {
+        width: 30px;
+    }
+
+    .cart_profile_menu ul li a {
+        padding: 0 11px;
+    }
+
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 0 14px;
+    }
+
+    .logo img {
+        width: 143px;
+    }
+
+    .header_bottom_con ul li span {
+        font-size: 12px;
+    }
+
+    .banner_area_design {
+        min-height: auto;
+        display: block;
+        padding: 50px 0;
+    }
+
+    .bannar_con h1 {
+        font-size: 69px;
+        line-height: normal;
+    }
+
+    .bannar_con p {
+        font-size: 26px;
+    }
+
+    .bannar_con a {
+        height: 61px;
+        width: 236px;
+        font-size: 21px;
+        margin-top: 77px;
+    }
+
+    .bannar_con {
+        max-width: 400px;
+        float: right;
+        width: 100%;
+    }
+
+    .banner_area_design {
+        min-height: auto;
+        display: block;
+        padding: 50px 0;
+        background-position: 100% 68% !important;
+    }
+    .cat_item {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .header_bottom_con .img_div {
+        width: 74px;
+        height: 52px;
+        display: block;
+    }
+
+    .banner_area_design {
+        padding: 24px 0;
+        background-position: 100% 68% !important;
+    }
+
+    .bannar_con {
+        max-width: 320px;
+    }
+
+    .bannar_con h1 {
+        font-size: 50px;
+    }
+
+    .bannar_con p {
+        font-size: 21px;
+    }
+
+    .bannar_con a {
+        height: 52px;
+        width: 224px;
+        font-size: 19px;
+        margin-top: 83px;
+        margin-bottom: 20px;
+    }
+
+    .single_why_drink p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .single_why_drink img {
+        max-width: 68px;
+        max-height: 57px;
+    }
+    .shop_categorey_area {
+        padding: 54px 0;
+        padding-bottom: 20px;
+    }
+    .shop_position h3 {
+        color: #FFF;
+        font-size: 18px;
+    }
+    .shop_position span {
+        border: 1px solid #FFF;
+        width: 52px;
+        border-radius: 6px;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        font-size: 23px;
+        height: 24px;
+        line-height: 18px;
+        margin-left: 15px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+}
+}
+
+
+
+@media all and (max-width:575px) {
+    .header_bottom_con .img_div {
+        width: 100%;
+        height: 45px;
+    }
+
+    .header_bottom_con {
+        padding: 28px 0;
+        padding-bottom: 19px;
+    }
+
+    .banner_area_design {
+        padding: 24px 0;
+        background-position: 73% 68% !important;
+    }
+
+    .section_title h2 {
+        font-size: 26px;
+    }
+
+    .section_padding {
+        padding: 50px 0;
+    }
+
+    .product_con p {
+        font-size: 16px;
+    }
+
+    .single_why_drink {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .all_why_drink {
+        flex-wrap: wrap;
+    }
+
+    .single_why_drink p br {
+        display: none;
+    }
+    .single_why_drink img {
+        max-height: 57px;
+        height: 42px;
+    }
+}
+
+@media all and (max-width:450px) {
+    .header_bottom_con ul li {
+        padding: 0 7px;
+    }
+
+    .header_bottom_con ul li span {
+        font-size: 10px;
+    }
+
+    .header_bottom_con .img_div img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        width: auto;
+    }
+
+    .bannar_con {
+        max-width: 204px;
+    }
+
+    .bannar_con a {
+        height: 47px;
+        width: 173px;
+        font-size: 16px;
+        margin-top: 83px;
+        margin-bottom: 20px;
+    }
+
+    .top_bar {
+        height: 11px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .product_con p {
+        font-size: 14px;
+    }
+
+    .product_con a {
+        height: 33px;
+        width: 100%;
+        font-size: 11px;
+        max-width: 161px;
+        border-radius: 50px;
+    }
+
+    .section_title h2 {
+        font-size: 18px;
+    }
+
+    .section_padding {
+        padding: 32px 0;
+    }
+
+    .section_title {
+        margin-bottom: 34px;
+    }
+
+    .p_image {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .single_why_drink p {
+        font-size: 15px;
+        margin-top: 18px;
+    }
+    .single_why_drink img {
+        max-height: 57px;
+        height: 42px;
+    }
+    .shop_position h3 {
+        color: #FFF;
+        font-size: 15px;
+    }
+    .shop_position {
+        padding: 8px;
+    }
+    .shop_position span {
+        width: 34px;
+        font-size: 16px;
+        height: 18px;
+        line-height: 13px;
+    }
+}
