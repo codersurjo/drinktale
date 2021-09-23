@@ -1,0 +1,165 @@
+/*===============================================
+Default css
+===============================================*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'Stabillo';
+    src: url('../fonts/StabilloMedium.woff2') format('woff2'),
+        url('../fonts/StabilloMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'White Angelica';
+    src: url('../fonts/WhiteAngelicaRegular.woff2') format('woff2'),
+        url('../fonts/WhiteAngelicaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{
+	margin:0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
+}
+.pt-10{
+	margin-top:10px;
+}
+.pt-20{
+	margin-top:20px;
+}
+.pt-30{
+	margin-top:30px;
+}
+.pt-40{
+	margin-top:40px;
+}
+.pt-50{
+	margin-top:50px;
+}
+.pt-60{
+	margin-top:60px;
+}
+.pt-70{
+	margin-top:70px;
+}
+.pt-80{
+	margin-top:80px;
+}
+.pt-90{
+	margin-top:90px;
+}
+.pt-100{
+	margin-top:100px;
+}
+.pb-10{
+	margin-bottom: 10px;
+}
+.pb-20{
+	margin-bottom: 20px;
+}
+
+.pb-30{
+	margin-bottom: 30px;
+}
+
+.pb-40{
+	margin-bottom: 40px;
+}
+.pb-50{
+	margin-bottom: 50px;
+}
+.pb-60{
+	margin-bottom: 60px;
+}
+.pb-70{
+	margin-bottom: 70px;
+}
+.pb-80{
+	margin-bottom: 80px;
+}
+.pb-90{
+	margin-bottom: 90px;
+}
+.pb-100{
+	margin-bottom: 100px;
+}
+
+.section_padding{
+	padding: 100px 0;
+}
+.section_heading{
+	text-align: center;
+}
+.section_heading h2{
+	position: relative;
+}
+.section_heading h2:after{
+	position: absolute;
+	content: "";
+}
+.section_heading h2:before{
+	position: absolute;
+	content: "";
+}
+.section_heading p{
+}
+
+
+/*=================================================================
+				Start Main css
+=================================================================*/
+
+/* Header all css  */
+.header_area_design{
+}
+.header_all_area{
+}
+.logo_area{
+}
+.logo{
+}
+.logo img{
+}
+.menu_and_cart_area{
+}
+.main_menu{
+}
+.main_menu ul{
+}
+.main_menu ul li{
+}
+.main_menu ul li a{
+}
+.main_menu ul li:hover a{
+}
+.cart_profile_menu{
+}
+.cart_profile_menu ul{
+}
+.cart_profile_menu ul li{
+}
+.cart_profile_menu ul li a{
+}
+.cart_profile_menu ul li:hover a{
+}
+/* End Header all css */
