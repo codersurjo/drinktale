@@ -367,6 +367,7 @@
         left: 3px;
         border-radius: 100%;
         -webkit-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
         transition: all 0.2s ease;
     }
     .composition_content {
@@ -402,7 +403,9 @@
         padding: 14px 21px;
         font-family: Poppins;
         border-radius: 3px;
-        flex: 0 0 48%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
         max-width: 48%;
     }
     .coment_single input[type="submit"] {
@@ -431,7 +434,8 @@
     .style_img img {
         width: 100%;
         max-height: 374px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
     .taser_all h2 {
         font-size: 43px;
@@ -851,7 +855,9 @@
         display: block;
     }
     .filter_by_area_design .col-lg-4.col-6 {
-        flex: 0 0 49%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 49%;
+                flex: 0 0 49%;
         max-width: 50%;
     }
     .filter_pr {
@@ -888,7 +894,9 @@
         padding: 5px 0;
     }
     .left_rr {
-        flex: 0 0 47%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 47%;
+                flex: 0 0 47%;
     }
     .right_rr_midle h2 {
         font-size: 18px;
@@ -1008,7 +1016,9 @@
         z-index: 99;
     }
     .filter_by_area_design .col-lg-4.col-6 {
-        flex: 0 0 50%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
         max-width: 50%;
         padding-left: 7px;
         padding-right: 7px;
@@ -1049,7 +1059,9 @@
         padding: 10px 14px;
         font-family: Poppins;
         border-radius: 3px;
-        flex: 0 0 48%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
         max-width: 48%;
     }
     .coment_single input[type="submit"] {
@@ -1061,14 +1073,21 @@
         margin-bottom: 30px;
     }
     .left_rr {
-        flex: 0 0 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
     }
     .single_recipes {
         margin-bottom: 35px;
         overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .rigth_rr {
         padding-left: 0;
@@ -1076,15 +1095,21 @@
         margin-top: 20px;
     }
     .group_i_single_u {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         border: 1px solid #D00F27;
         border-radius: 25px;
         overflow: hidden;
     }
     .taser_img {
         border-radius: 0;
-        flex: 0 0 38%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 38%;
+                flex: 0 0 38%;
         max-width: 38%;
     }
     .group_i_single_u p {
@@ -1115,7 +1140,8 @@
     .taser_img img {
         width: 100%;
         height: 134px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
 }
@@ -1331,13 +1357,16 @@
     }
     .taser_img {
         border-radius: 0;
-        flex: 0 0 44%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 44%;
+                flex: 0 0 44%;
         max-width: 44%;
     }
     .taser_img img {
         width: 100%;
         height: 117px;
-        object-fit: ;
+        -o-object-fit: ;
+           object-fit: ;
     }
     .group_i_single_u p {
         font-size: 14px;
