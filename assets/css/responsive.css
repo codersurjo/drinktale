@@ -301,6 +301,11 @@
         height: 52px;
         font-size: 16px;
     }
+    .card_header_2 > a.collapsed::before,
+    .card_header_2 > a::before {
+        right: 9px;
+        top: 2px;
+    }
     .customar_buying_area {
         padding: 71px 0;
         overflow: hidden;
@@ -364,6 +369,62 @@
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
     }
+    .composition_content {
+        padding: 75px 0;
+    }
+    .title_date h2 {
+        font-size: 39px;
+    }
+    .full_p p {
+        font-size: 16px;
+        color: #000000;
+        margin: 37px 0;
+    }
+    .full_half {
+        max-width: 691px;
+        width: 100%;
+    }
+    .com_video iframe {
+        min-height: 387px;
+
+    }
+    .coment_single textarea {
+        min-height: 184px;
+        font-size: 14px;
+        padding: 23px;
+    }
+    .coment_single input {
+        color: #757575;
+        color: #757575;
+        border: 1px solid #D0D0D0;
+        min-height: 41px;
+        font-size: 14px;
+        padding: 14px 21px;
+        font-family: Poppins;
+        border-radius: 3px;
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .coment_single input[type="submit"] {
+        width: 196px;
+        height: 53px;
+        font-size: 15px;
+    }
+    .rigth_rr {
+        padding-left: 33px;
+        max-width: 465px;
+    }
+    .right_rr_midle h2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .composition_bordcame h2 {
+        font-size: 46px;
+    }
+    .right_rr_midle p {
+        font-size: 15px;
+    }
+    
 }
 
 
@@ -756,6 +817,43 @@
     .borcame_con p {
         font-size: 15px;
     }
+    .title_date h2 {
+        font-size: 30px;
+    }
+    .composition_content {
+        padding: 49px 0;
+    }
+    .composition_bordcame img {
+        width: 100%;
+        min-height: 146px;
+    }
+    .full_p p {
+        font-size: 14px;
+        margin: 30px 0;
+    }
+    .com_video iframe {
+        min-height: 272px;
+    }
+    .title_date ul {
+        display: block;
+        margin-top: 20px;
+    }
+    .title_date ul li {
+        font-size: 14px;
+        color: #757575;
+        padding-right: 0;
+        padding: 5px 0;
+    }
+    .left_rr {
+        flex: 0 0 47%;
+    }
+    .right_rr_midle h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .composition_bordcame h2 {
+        font-size: 31px;
+    }
 }
 
 
@@ -865,6 +963,57 @@
     .bordcame_area_design img {
         width: 100%;
         min-height: 221px;
+    }
+    .title_date h2 {
+        font-size: 24px;
+    }
+    .title_date ul {
+        display: block;
+        margin-top: 9px;
+    }
+    .full_p p {
+        font-size: 14px;
+        margin: 18px 0;
+    }
+    .coment_single textarea {
+        min-height: 132px;
+        font-size: 14px;
+        padding: 17px;
+    }
+    .coment_single input {
+        color: #757575;
+        color: #757575;
+        border: 1px solid #D0D0D0;
+        min-height: 33px;
+        font-size: 14px;
+        padding: 10px 14px;
+        font-family: Poppins;
+        border-radius: 3px;
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .coment_single input[type="submit"] {
+        width: 175px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .com_video {
+        margin-bottom: 30px;
+    }
+    .left_rr {
+        flex: 0 0 100%;
+    }
+    .single_recipes {
+        margin-bottom: 35px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .rigth_rr {
+        padding-left: 0;
+        max-width: 465px;
+        margin-top: 20px;
     }
 }
 
@@ -1067,5 +1216,14 @@
     .customar_buying_area {
         padding: 44px 0;
         overflow: hidden;
+    }
+    .title_date h2 {
+        font-size: 19px;
+    }
+    .title_date ul li {
+        font-size: 13px;
+    }
+    .right_rr_midle p {
+        font-size: 14px;
     }
 }
