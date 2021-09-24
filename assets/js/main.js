@@ -24,13 +24,12 @@ jQuery(document).ready(function () {
             450: {
               items: 2,
               center:false,
+              dots: true,
             },
     
             992: {
-
                 items: 4,
-                dots: true,
-
+                dots: false,
             },
             1600:{
                 margin:80,
