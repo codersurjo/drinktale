@@ -100,6 +100,58 @@ jQuery(document).ready(function () {
     });
     // End About slider 
 
+    // New slider 
+       //Slider
+       jQuery(".re_slider1").owlCarousel({
+        autoplay: false,
+        loop: true,
+        margin: 30,
+        // animateOut: 'fadeOut',
+        // animateIn: 'fadeIn',
+        responsiveClass: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 800,
+        responsive: {
+            0: {
+                items: 1,
+                center: false,
+            },
+
+            450: {
+                items: 2,
+                center: false,
+                dots: false,
+            },
+
+            992: {
+                items: 4,
+                dots: false,
+            },
+            1600: {
+                margin: 30,
+                items: 4,
+                dots: false,
+            }
+
+        }
+
+    });
+
+    // Hompage slider 
+    jQuery(".home_slider").owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin: 30,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
+        responsiveClass: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 800,
+        items: 1,
+        dots:false,
+        nav:false,
+    });
+
 
 })
 
